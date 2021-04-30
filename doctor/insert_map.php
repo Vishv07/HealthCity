@@ -1,0 +1,23 @@
+<?php
+            if(isset($_POST['submit']))
+            {
+            	$a=$_POST['map'];
+                  echo $a;
+            	if($a=='typhoid')
+            	{
+            		header("location:backup.php");
+            	}
+            	if($a=='jaundice')
+            	{
+            		header("location:backup1.php");
+            	}
+                  if($a=='swineflu')
+                  {
+                        header("location:backup2.php");
+                  }
+                  if($a=='asthma')
+                  {
+                        header("location:backup3.php");
+                  }
+            }
+?>
